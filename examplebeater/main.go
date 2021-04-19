@@ -5,8 +5,8 @@ import (
 	"os/signal"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
 	"github.com/gravitational/trace"
+	log "github.com/sirupsen/logrus"
 )
 
 func init() {

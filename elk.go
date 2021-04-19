@@ -5,11 +5,11 @@ import (
 	"net"
 	"sync/atomic"
 
-	log "github.com/Sirupsen/logrus"
 	"github.com/elastic/beats/libbeat/beat"
 	"github.com/elastic/beats/libbeat/common"
 	"github.com/gravitational/trace"
 	"github.com/jonboulle/clockwork"
+	log "github.com/sirupsen/logrus"
 )
 
 const (
