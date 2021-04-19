@@ -1,4 +1,4 @@
-module github.com/gravitational/udpbeat
+module github.com/fbfeix/udpbeat
 
 go 1.15
 
