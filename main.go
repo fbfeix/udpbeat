@@ -1,7 +1,6 @@
-package main
+package udpbeat
 
 import (
-	"github.com/elastic/beats/libbeat/beat"
 	"github.com/gravitational/trace"
 	log "github.com/sirupsen/logrus"
 	"os"
@@ -18,10 +17,10 @@ func init() {
 	log.SetLevel(log.InfoLevel)
 }
 
-func main() {
-	log.Infof("starting udpbeat, check trace.yml for details on config")
-	err := beat.Run(ELKBeatName, ELKBeatVersion, NewELK())
-	if err != nil {
-		log.Fatalf("err: %v", err)
-	}
-}
+//func main() {
+//	log.Infof("starting udpbeat, check trace.yml for details on config")
+//	err := beat.Run(ELKBeatName, ELKBeatVersion, NewELK())
+//	if err != nil {
+//		log.Fatalf("err: %v", err)
+//	}
+//}

@@ -1,4 +1,4 @@
-package main
+package udpbeat
 
 import (
 	"encoding/json"
